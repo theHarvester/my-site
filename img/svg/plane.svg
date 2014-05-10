@@ -1,0 +1,42 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" class="drawing">
+<defs>
+    <filter id="dropshadow" height="130%">
+        <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+        <feOffset dx="1" dy="1" result="offsetblur"/>
+        <feMerge>
+            <feMergeNode/>
+            <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+    </filter>
+</defs>
+<!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+<g>
+    <title>bottom</title>
+    <!--<ellipse ry="8" rx="16" id="svg_20" cy="143" cx="153.5" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#2b2b2b" fill="#3b663b"/>-->
+    <!--<ellipse stroke="#2b2b2b" id="svg_12" ry="5" rx="4.66667" cy="143.16667" cx="145.74794" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#305130"/>-->
+    <path stroke="#2b2b2b" id="svg_4" d="m161.89854,75.11773c-16.13257,5.68179 -30.04691,-1.76331 -30.04691,-1.95924c0,-0.19593 -2.21823,-7.05325 19.35907,-16.84942c21.57733,-9.79618 46.38112,-14.10649 31.45853,-4.89809c-14.92264,9.20842 -20.77069,23.70675 -20.77069,23.70675z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#578e57" filter="url(#dropshadow)"/>
+</g>
+<g>
+    <title>base</title>
+    <path id="svg_19" d="m41,107c-1,-13 12,-20 25,-24c13,-4 21,-17 23,-17c2,0 7,-8 32,-6c25,2 74,7 98,4c24,-3 34,-17 34,-17c0,0 22,-5 15,10c-7,15 -13,49 -38,65c-25,16 -125,15 -125,15c0,0 -33,-7 -50,-17c-17,-10 -14,-13 -14,-13z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#2b2b2b" fill="#487c48" filter="url(#dropshadow)"/>
+</g>
+<g>
+    <title>engine</title>
+    <path stroke="#274427" id="svg_18" d="m129.25438,138.46397c0.25594,-11.00462 3.32733,-11.26057 3.07138,-11.26057c-0.25594,0 51.18503,8.44634 22.26517,17.40336c-28.91985,8.95702 -17.91524,5.11899 -21.75327,5.88684c-3.83922,0.76784 -3.58328,-12.02963 -3.58328,-12.02963z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#3b663b" filter="url(#dropshadow)"/>
+    <ellipse stroke="#274427" id="svg_20" ry="7.33333" rx="1.83333" cy="139.00005" cx="133.50007" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#274427"/>
+</g>
+<g>
+    <title>top_engine</title>
+    <path id="svg_10" stroke="#274427" d="m150.25375,148.60837c0.211,-9.07199 2.743,-9.28299 2.532,-9.28299c-0.211,0 42.196,6.963 18.355,14.34702c-23.841,7.384 -14.769,4.21999 -17.933,4.853c-3.16499,0.633 -2.95399,-9.91702 -2.95399,-9.91702z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#3b663b" filter="url(#dropshadow)"/>
+    <ellipse id="svg_17" ry="5.33333" rx="1.33333" cy="149.00005" cx="154.33341" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#274427" fill="#274427"/>
+</g>
+<g>
+    <title>top</title>
+    <path stroke="#2b2b2b" id="svg_2" d="m186.6152,108.23244c-30.68587,-11.12363 -57.15245,3.45216 -57.15245,3.83573c0,0.38358 -4.21931,13.80865 36.82306,32.98731c41.04236,19.17868 88.22188,27.61729 59.83745,9.58934c-28.38443,-18.02795 -39.50806,-46.41238 -39.50806,-46.41238z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#578e57" filter="url(#dropshadow)"/>
+    <path stroke="#2b2b2b" transform="rotate(161.935 252.505 79.7584)" id="svg_3" d="m250.9449,88.68369c10.49605,3.80482 19.54887,-1.1808 19.54887,-1.312c0,-0.1312 1.44318,-4.72322 -12.59521,-11.28323c-14.0385,-6.56004 -30.17613,-9.44644 -20.4673,-3.28002c9.70883,6.16643 13.51364,15.87525 13.51364,15.87525z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#578e57"/>
+    <path stroke="#2b2b2b" transform="rotate(25.9193 90.3039 81.8838)" id="svg_5" d="m88.42107,71.259c-11.62054,10.25343 -8.8863,16.40548 -8.8863,16.40548c0,0 2.73425,5.46849 15.03835,4.78493c12.30411,-0.68356 4.10137,-19.13972 4.10137,-19.13972c0,0 -10.25343,-2.05068 -10.25343,-2.05068z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#ffffff"/>
+    <ellipse ry="8" rx="6" id="svg_6" cy="87" cx="137" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#2b2b2b" fill="#ffffff"/>
+    <ellipse id="svg_7" ry="8" rx="6" cy="87" cx="160" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#2b2b2b" fill="#ffffff"/>
+    <ellipse id="svg_8" ry="8" rx="6" cy="86" cx="182" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#2b2b2b" fill="#ffffff"/>
+</g>
+</svg>

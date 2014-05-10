@@ -172,6 +172,11 @@ a {
     right: 10px;
 }
 
+#plane img {
+    width:540px; /* you can use % */
+    height: auto;
+}
+
 .rainy-weather {
     /*margin: auto;*/
     width: 350px;
