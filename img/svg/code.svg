@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px"
+	 height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<g id="bg">
+	<circle opacity="0.1" fill="#FFFFFF" cx="49.635" cy="50" r="46.979"/>
+</g>
+<g id="icon">
+	<g>
+		<path fill="none" stroke="#F9F9FA" stroke-width="2" stroke-miterlimit="10" d="M30,24.5c-8.621,0,1.035,26.021-10,26.021"/>
+		<path fill="none" stroke="#F9F9FA" stroke-width="2" stroke-miterlimit="10" d="M30,76.75c-8.621,0,1.035-26.229-10-26.229"/>
+	</g>
+	<g>
+		<path fill="none" stroke="#F9F9FA" stroke-width="2" stroke-miterlimit="10" d="M68.212,24.5c8.405,0-1.008,26.021,9.75,26.021"/>
+		<path fill="none" stroke="#F9F9FA" stroke-width="2" stroke-miterlimit="10" d="M68.212,76.75c8.405,0-1.008-26.229,9.75-26.229"
+			/>
+	</g>
+</g>
+</svg>
