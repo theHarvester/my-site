@@ -1,9 +1,14 @@
 
 $(document).ready(function(){
     var height = $(window).height();
-    makeCloud(getRandomArbitrary(0.4,1.0), getRandomInt(40000, 60000), getRandomInt(0, height / 2));
+
+    var cloud = makeCloud(getRandomArbitrary(0.4,1.0), getRandomInt(0, height / 2));
+    animateCloud(cloud, getRandomInt(40000, 60000), 0);
+
     setInterval(function(){
-        makeCloud(getRandomArbitrary(0.4,1.0), getRandomInt(40000, 60000), getRandomInt(0, height / 2));
+        console.log('making cloud');
+        var cloud = makeCloud(getRandomArbitrary(0.4,1.0), getRandomInt(0, height / 2));
+        animateCloud(cloud, getRandomInt(40000, 60000), 0);
     },7000);
 
 
@@ -11,9 +16,14 @@ $(document).ready(function(){
 
     });
 
-    $('#plane img').css('width', $(window).width() / 8);
+    $('#plane img').css('width',  getPxScale(400,0.5));
 
-    loop();
+    // give it some time before the plane appears
+    setTimeout(function() {
+        $('#plane').css('right', function(){ return $(this).offset().right; }).animate({"right": '100%'}, 20000);
+        console.log('here');
+    }, 45000);
+
 });
 
 function getPxScale(base, scale){
@@ -32,11 +42,12 @@ function getRandomArbitrary(min, max) {
     return Math.random() * (max - min) + min;
 }
 
-function makeCloud(scale, timeout, height){
+function makeCloud(scale, height){
     var cloud = $('#base-cloud').clone();
     cloud.removeAttr('id');
     $('.background-image').append(cloud);
 
+    //randomizes the cloud size
     cloud.children('.cloud-main').css('width', getPxScale(350,scale));
     cloud.children('.cloud-main').css('height', getPxScale(130,scale));
     cloud.children('.cloud-main').css('top', getPxScale(50,scale));
@@ -53,20 +64,14 @@ function makeCloud(scale, timeout, height){
     cloud.css('height', getPxScale(400,scale));
     cloud.css('top', height);
 
-    var widthPx = $(window).width() + 300;
-    cloud.css('left', function(){ return $(this).offset().left; }).animate({"left":widthPx + 'px'}, timeout);
+    return cloud;
+}
+
+function animateCloud(cloud, timeout, startDistance){
+    var widthPx = $(window).width() + 300 + startDistance;
+    cloud.css('left', function(){ return $(this).offset().left + startDistance; }).animate({"left":widthPx + 'px'}, timeout);
 
     setTimeout(function() {
         cloud.remove();
     }, timeout);
-}
-
-function loop() {
-    $('#plane').animate({'top': '20'}, {
-        duration: 2000,
-        complete: function() {
-            $('#plane').animate({top: 0}, {
-                duration: 2000,
-                complete: loop});
-        }});
 }

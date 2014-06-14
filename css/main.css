@@ -154,7 +154,6 @@ a.icon:hover ellipse {
     transition: all 100ms ease-in-out;
 
     fill: #00A3EF;
-    /*fill: red;*/
 }
 
 a.icon ellipse {
@@ -163,13 +162,14 @@ a.icon ellipse {
     -o-transition: all 100ms ease-in-out;
     transition: all 100ms ease-in-out;
 }
+
 a {
     text-decoration: none;
 }
 
 #plane {
     position: absolute;
-    right: 10px;
+    right: -800px;
 }
 
 #plane img {
